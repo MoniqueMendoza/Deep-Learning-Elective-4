@@ -1,0 +1,19 @@
+
+# Table of Contents for Deep Learning Portfolio
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: "Lecture Tasks"
+    chapters:
+      - file: DL_Mendoza\Lecture\Lecture_Task_1.ipynb
+
+  - caption: "Laboratory Activities"
+    chapters:
+      - file: DL_Mendoza\Laboratory\Laboratory_1.ipynb
+      - file: DL_Mendoza\Laboratory\Laboratory_2.ipynb
+      - file: DL_Mendoza\Laboratory\Laboratory_3.ipynb
+      - file: DL_Mendoza\Laboratory\Laboratory_4.ipynb
+      - file: DL_Mendoza\Laboratory\Laboratory_5.ipynb
+      - file: DL_Mendoza\Laboratory\Laboratory_6.ipynb
