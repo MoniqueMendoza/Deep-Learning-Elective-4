@@ -1,0 +1,144 @@
+/* ==============================
+   Custom Dark Purple-Pink Theme 💜🖤
+   with Visible Dark/Light Toggle
+   ============================== */
+
+/* Overall Background & Text */
+body {
+  background-color: #0a0a0a; /* deep black */
+  color: #f3e8ff; /* soft lavender text */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #e0b3ff; /* pastel purple */
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #ff66c4; /* hot pink links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0b3ff; /* soft purple hover */
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.bd-sidebar {
+  background-color: #1a001f; /* deep purple-black */
+  border-right: 1px solid #3d004d;
+}
+
+.bd-sidebar .nav-link {
+  color: #f3e8ff;
+}
+
+.bd-sidebar .nav-link:hover,
+.bd-sidebar .nav-link.active {
+  color: #ffffff;
+  background-color: #b266ff; /* glowing purple highlight */
+  border-radius: 10px;
+}
+
+/* Header / Top Navbar */
+.bd-header {
+  background-color: #2b0033; /* dark plum */
+  border-bottom: 1px solid #3d004d;
+}
+
+.bd-header a,
+.navbar-nav .nav-link {
+  color: #f3e8ff;
+  font-weight: 600;
+}
+
+.bd-header a:hover {
+  color: #ff66c4;
+}
+
+/* Navbar icons */
+.bd-header .navbar-brand img,
+.bd-header .navbar-btn {
+  filter: brightness(0) invert(1); /* make icons visible */
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #2b0033; /* dark purple */
+  color: #ffb3ff; /* light pink code text */
+  border-radius: 8px;
+  padding: 0.3em 0.5em;
+}
+
+/* Buttons */
+button,
+.btn {
+  background-color: #b266ff !important; /* purple button */
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #ff66c4 !important; /* pink hover */
+}
+
+/* Search bar */
+.bd-search input {
+  background-color: #1a001f;
+  color: #f3e8ff;
+  border: 2px solid #b266ff;
+}
+
+.bd-search input::placeholder {
+  color: #b266ff;
+}
+
+/* Footer */
+footer {
+  background-color: #1a001f;
+  color: #e0b3ff;
+  text-align: center;
+  padding: 1em;
+  font-weight: 600;
+  border-top: 1px solid #3d004d;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b266ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff66c4;
+}
+
+/* ==============================
+   SHOW THEME TOGGLE 🌙☀️
+   ============================== */
+.theme-switch-button,
+button[data-bs-toggle="theme"] {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #ff66c4 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.theme-switch-button:hover {
+  color: #e0b3ff !important;
+}
