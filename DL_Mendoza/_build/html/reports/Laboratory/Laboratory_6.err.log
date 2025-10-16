@@ -45,7 +45,7 @@ Traceback (most recent call last):
     raise CellTimeoutError.error_from_timeout_and_cell(
         "Cell execution timed out", timeout, cell
     )
-nbclient.exceptions.CellTimeoutError: A cell timed out while it was being executed, after 30 seconds.
+nbclient.exceptions.CellTimeoutError: A cell timed out while it was being executed, after 600 seconds.
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------

@@ -14,7 +14,8 @@ description: >
 execute:
   execute_notebooks: cache         # Cache notebooks for faster rebuilds
   allow_errors: true
-  timeout: auto                    # Auto timeout (lets Jupyter Book decide)
+  timeout: 600                     # Timeout in seconds (10 mins)
+  # You can increase this if notebooks take longer to run
 
 # LaTeX / PDF Build Settings
 latex:
@@ -61,4 +62,3 @@ sphinx:
       use_download_button: true
       navigation_with_keys: true
       show_navbar_depth: 2
-      canonical_url: https://moniquemendoza.github.io/Deep-Learning-Elective-4
